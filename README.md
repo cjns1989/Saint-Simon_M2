@@ -1,8 +1,8 @@
 # About Saint-Simon
 
-Louis de Rouvroy, duc de Saint-Simon, (1675-1755), best known as a memoirist had a profound influence on many writers including Stendhal, Blazac and Marcel Proust.  His enormous memoirs are a classic of French literature, giving the fullest and most lively account of the court at Versailles of Louis XIV and the Régence at the start of Louis XV's reign.
+Louis de Rouvroy, duc de Saint-Simon, (1675-1755), best known as a memoirist had a profound influence on many writers including Stendhal, Blazac and Marcel Proust.  His monumental *Mémoires* are a classic of French literature, giving the fullest and most lively account of the court at Versailles of Louis XIV and the Régence at the start of Louis XV's reign.
 
-This is volume II of the series.
+This is volume II of the celebrated  *Mémoires de Saint-Simon*.
 
 # Structure 
 
@@ -29,13 +29,14 @@ This is volume II of the series.
 
   If you are only interested in reading this book, the master branch already has the current state-of-the art version available (in html, epub, and pdf format) in the corresponding subdirectories.
 
-  In the event you wish to make any minor changes (such as for instance fixing typos, improving the formatting, switching to a different font, providing your own cover images... etc.) and ready your own version for publication you could do the following:
+  In the event you wish to make minor changes (such as for instance fixing typos, improving the formatting, switching to a different font, providing your own cover images... etc.) for your own personal use you can do following:
 
   1. git clone the project (or download/unpack the zip file)
   2. make your changes in the master branch
   3. navigate to the top of the book's directory and execute the following commands from the shell prompt:
-     - make clean
-     - make *target*
+
+     $ make clean
+     $ make *target*
 
   ... Where *target* can be any of the following:
 
@@ -45,7 +46,7 @@ This is volume II of the series.
   4. make *epub*: recreate the epub
   5. make *html*: recreate the web-friendly html output
 
-  While working on your changes, rather than run *make all* and create all output formats (which takes a while on slow systems) you can create a single pdf file at one given point size - e.g. *make pdf10* to create the 10pt raw pdf.
+  While working on your changes, rather than run *make/ make all* and create all output formats (which takes a while on slow systems) you can create a single pdf file at one given point size - e.g. *make pdf10* to create the 10pt raw pdf.
 
   By default the pdf and pdfc folders each contain 6 files — at different point sizes: 8, 9, 10, 11, 12 & 14pt.
 
